@@ -6,12 +6,16 @@
   "sections": {
     "product-grid": {
       "settings": {
-        "show_secondary_image": false,
         "image_ratio": "adapt",
+        "show_secondary_image": false,
         "show_rating": false
       },
       "blocks": {
       }
     }
-  }
+  },
+  "order": [
+    "banner",
+    "product-grid"
+  ]
 }
