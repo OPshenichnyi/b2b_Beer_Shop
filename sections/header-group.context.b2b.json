@@ -4,5 +4,40 @@
     "b2b": true
   },
   "sections": {
-  }
+    "ffe895c0-3eb1-4469-913b-ea48c6cbdf37": {
+      "type": "announcement-bar",
+      "disabled": false,
+      "settings": {
+        "color_scheme": "",
+        "show_line_separator": true,
+        "header-c91791e784bf5acb6efef34e249040e0": null,
+        "show_social": false,
+        "header-e577c2ddbbe38d94a6b1b98195398725": null,
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "header-2570a58422bcc5e317706ba00c83e7e6": null,
+        "enable_country_selector": false,
+        "header-7932489c6e93f1dba5e73bc8d6a06045": null,
+        "enable_language_selector": false
+      },
+      "blocks": {
+        "sections--17047640899830__ffe895c0-3eb1-4469-913b-ea48c6cbdf37-announcement-1": {
+          "type": "announcement",
+          "disabled": false,
+          "settings": {
+            "text": "Welcome to our store",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "sections--17047640899830__ffe895c0-3eb1-4469-913b-ea48c6cbdf37-announcement-1"
+      ]
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header",
+    "ffe895c0-3eb1-4469-913b-ea48c6cbdf37"
+  ]
 }
