@@ -12,6 +12,13 @@
       },
       "blocks": {
       }
+    },
+    "banner": {
+      "settings": {
+        "show_collection_image": false
+      },
+      "blocks": {
+      }
     }
   },
   "order": [
