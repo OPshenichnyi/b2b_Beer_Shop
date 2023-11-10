@@ -40,37 +40,105 @@
         "show_text_below": false
       }
     },
-    "featured_collection": {
-      "type": "featured-collection",
+    "594e7a6d-9a72-451d-9098-3452f118b958": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17047300047094__594e7a6d-9a72-451d-9098-3452f118b958-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Lubart Keg Market<\/strong>",
+            "heading_size": "h1"
+          }
+        },
+        "template--17047300047094__594e7a6d-9a72-451d-9098-3452f118b958-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ми - ваш надійний партнер у сфері реалізації пива та обладнання для розливу. Наша компанія спеціалізується на наданні вам доступу до найкращого асортименту пива та технічного обладнання для його розливу. Наш досвід та спеціалізація допоможуть вам досягти успіху у цьому бізнесі. Ми горді тим, що допомагаємо нашим клієнтам на кожному етапі їхнього розвитку. Зв'яжіться з нами, і ми готові надати вам фахову підтримку та найкращі рішення для вашого бізнесу.<\/p>"
+          }
+        },
+        "template--17047300047094__594e7a6d-9a72-451d-9098-3452f118b958-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17047300047094__594e7a6d-9a72-451d-9098-3452f118b958-heading-1",
+        "template--17047300047094__594e7a6d-9a72-451d-9098-3452f118b958-text-1",
+        "template--17047300047094__594e7a6d-9a72-451d-9098-3452f118b958-button-1"
+      ],
       "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 44,
-        "padding_bottom": 36
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "d38e3235-89c3-47f0-9189-ce832a58e6cb": {
+      "type": "slideshow",
+      "blocks": {
+        "template--17047300047094__d38e3235-89c3-47f0-9189-ce832a58e6cb-slide-1": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "template--17047300047094__d38e3235-89c3-47f0-9189-ce832a58e6cb-slide-2": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--17047300047094__d38e3235-89c3-47f0-9189-ce832a58e6cb-slide-1",
+        "template--17047300047094__d38e3235-89c3-47f0-9189-ce832a58e6cb-slide-2"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
       }
     }
   },
   "order": [
     "image_banner",
-    "featured_collection"
+    "594e7a6d-9a72-451d-9098-3452f118b958",
+    "d38e3235-89c3-47f0-9189-ce832a58e6cb"
   ]
 }
