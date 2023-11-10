@@ -6,7 +6,9 @@
   "sections": {
     "product-grid": {
       "settings": {
-        "show_secondary_image": false
+        "show_secondary_image": false,
+        "image_ratio": "adapt",
+        "show_rating": false
       },
       "blocks": {
       }
