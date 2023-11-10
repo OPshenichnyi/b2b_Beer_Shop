@@ -417,7 +417,30 @@
         "alternative_payment_currency_total_notice": "Примітка: з вас буде стягнуто %{amount_due}.",
         "waiting_on_taxes_message": "Якщо ваші податки не обчислюються протягом наступних кількох секунд, оновіть сторінку.",
         "waiting_on_taxes_notice": "Розрахунок податків",
-        "payment_method": "Спосіб оплати"
+        "payment_method": "Спосіб оплати",
+        "amazon_payments_login_hint": "Вам буде запропоновано ввійти за допомогою Amazon.",
+        "amazon_payments_logout": "Вийдіть із Amazon Pay",
+        "amazon_payments_failed_mfa_challenge": "Не вдалося використати вибраний спосіб оплати. Виберіть інший спосіб або зверніться до свого банку чи емітента картки.",
+        "amazon_payments_abandoned_mfa_challenge": "Не вдалося здійснити платіж. Спробуйте інший спосіб оплати або зверніться до свого банку чи емітента картки.",
+        "amazon_payments_could_not_enqueue_authorize": "Виникла проблема з обробкою вашого платежу. Повторіть спробу або скористайтеся іншим способом оплати.",
+        "title": "Оплата",
+        "amount_left_to_pay_label": "Очікуваний платіж:",
+        "discount_button_action_label": "Застосувати код знижки",
+        "gift_card_code_label": "Код подарункової картки",
+        "apply_gift_card_button_label": "Застосувати",
+        "gift_card_balance_label": "Баланс:",
+        "supported_card_brands_more_label": "і більше…",
+        "detected_card_brand": "Виявлена ​​марка картки: {brand}",
+        "credit_card_vaulting_sign_in_banner_title": "Збережіть свою кредитну картку",
+        "credit_card_vaulting_sign_in_banner_info": "Увійдіть або створіть обліковий запис, щоб зберегти свою кредитну картку для майбутніх покупок.",
+        "credit_card_vaulting_sign_in_banner_button_label": "авторизуватися",
+        "ftd_vault_credit_card_label": "Збережіть цю кредитну картку в моєму обліковому записі для швидшої оплати",
+        "card_number_label": "Номер картки",
+        "card_number_placeholder": "Номер картки",
+        "card_pay_with": "Оплатити за допомогою:",
+        "card_security_notice": "Усі транзакції безпечні та зашифровані.",
+        "card_security_vault_notice": "Нам потрібні ваші дані для майбутніх платежів. Усі транзакції безпечні та зашифровані.",
+        "card_information_notice": "Усі транзакції безпечні та зашифровані. Інформація про кредитну картку ніколи не зберігається."
       },
       "local_pickup": {
         "location_information": {
@@ -643,6 +666,116 @@
         "gift_card_confirmation_by_text_typ": {
           "one": "За кілька хвилин ви отримаєте текстове повідомлення з подарунковою карткою.",
           "other": "За кілька хвилин ви отримаєте текстове повідомлення з подарунковими картками."
+        }
+      },
+      "shipping": {
+        "split_cart_ships_by_date": "Доставка до %{date}",
+        "split_cart_multiple_shipment_label": "Кілька відправлень",
+        "split_cart_shipping_label": "метод",
+        "merchandise_quantity_label_inline_primary": "Кількість: %{quantity}",
+        "merchandise_quantity_label_inline": "%{merchandise_title} ×%{кількість}",
+        "optional_shipping_line_delivery_instructions_label": "Інструкції з доставки (необов'язково)",
+        "shipping_line_delivery_instructions": "Введіть необхідну інформацію, як-от дверні коди або інструкції щодо висадки.",
+        "other_method": {
+          "zero": "Інших методів немає",
+          "one": "%{count} інший метод доступний на",
+          "other": "%{count} інші методи доступні, починаючи з"
+        },
+        "shipping_rate_discounted_amount": "Було: %{original_amount}. Зараз: %{amount}",
+        "local_delivery": "Місцева доставка",
+        "subscription_delivery_description": {
+          "prepaid_delivery_frequency": {
+            "one": "за %{count} доставки",
+            "other": "для %{count} доставки"
+          },
+          "subscription_delivery_frequency": {
+            "day": {
+              "one": "кожен день",
+              "other": "кожні %{count} днів"
+            },
+            "week": {
+              "one": "кожного тижня",
+              "other": "кожні %{count} тижнів"
+            },
+            "month": {
+              "one": "щомісяця",
+              "other": "кожні %{count} місяців"
+            },
+            "year": {
+              "one": "щороку",
+              "other": "кожні %{count} років"
+            }
+          },
+          "multiple_subscriptions_shipping_price_label": "%{shipping_price} за доставку",
+          "prepaid_shipping_price_label": "%{shipping_price} за доставку x %{delivery_interval_count}",
+          "initial_order_discounted": "Спочатку вартість доставки %{discounted_shipping_cost}, потім %{frequency_description}",
+          "prepaid_initial_order_discounted": "Перша вартість доставки %{discounted_shipping_price} %{prepaid_delivery_frequency}",
+          "prepaid_initial_order_discounted_with_per_delivery_price": "Перша вартість доставки %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery})",
+          "prepaid_initial_order_discounted_with_renewal": "Спочатку вартість доставки %{discounted_shipping_price} %{prepaid_delivery_frequency}, потім %{shipping_price} %{billing_cycle}",
+          "prepaid_initial_order_discounted_with_per_delivery_price_and_renewal": "Спочатку вартість доставки %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery}), потім %{shipping_price} %{billing_cycle}",
+          "shipping_price_included": "В комплекті",
+          "recurring_order_shipping_price": "потім %{recurring_order_shipping_price}",
+          "first_order_shipping_price_included": "Перше замовлення включено, потім %{recurring_order_shipping_price}",
+          "first_order_different_shipping_price": "%{first_order_shipping_price} (%{per_delivery_price} за доставку), потім %{recurring_order_shipping_price}",
+          "first_n_order_free": {
+            "one": "Перше замовлення безкоштовно",
+            "other": "Перші %{count} замовлень безкоштовно"
+          },
+          "free_for_first_n_order": {
+            "one": "Для першого замовлення",
+            "other": "Для перших %{count} замовлень"
+          }
+        },
+        "one_time_purchase_shipping": "Одноразова доставка",
+        "address2_add_label": "Додайте квартиру, люкс тощо.",
+        "duties_and_taxes_title": "Мита і податки",
+        "shipping_information_required_notice": "Введіть свою адресу доставки, щоб переглянути доступні способи доставки.",
+        "shipping_information_redirect_link": "Введіть свою інформацію тут",
+        "loading_progressive_rates": "Пошук інших тарифів…",
+        "no_other_methods_available": "Інших методів немає",
+        "duties_and_taxes_options": {
+          "ddu_title": "Оплата при отриманні",
+          "ddu_caption": "Може стягуватися додаткова плата",
+          "ddp_title": "Платити зараз",
+          "ddp_caption": "Без додаткових комісій при доставці"
+        },
+        "shipping_method_combinations": {
+          "combination": "%{rest} і %{current}"
+        },
+        "shipping_used_as_billing_notice": "Це також буде використано як вашу платіжну адресу для цього замовлення.",
+        "address_update": "Оновити адресу",
+        "enter_address_manually_label": "Введіть адресу вручну",
+        "shipping_address_title": "Відправити до",
+        "add_address": "Використовуйте іншу адресу",
+        "add_delivery_instructions": "Додайте інструкції з доставки",
+        "edit": "Редагувати",
+        "delete": "Видалити",
+        "address_more": "Інші дії для цієї адреси",
+        "address_edit": "Редагувати адресу",
+        "address_delete": "Видалити адресу",
+        "address_confirm": "Ви впевнені, що хочете видалити цю адресу зі свого облікового запису?",
+        "address_form": {
+          "add_address": "Додайте адресу",
+          "save": "зберегти",
+          "cancel": "Скасувати",
+          "generic_error": "Під час збереження адреси виникла проблема. Будь ласка спробуйте ще раз.",
+          "one_time_address_subtitle": "Використовуйте одноразову адресу для цього замовлення"
+        },
+        "different_shipping_method_summary": "Введіть іншу адресу доставки, щоб переглянути доступні способи доставки",
+        "invalid_shipping_method_summary": "Введіть дійсну адресу доставки, щоб переглянути доступні способи доставки",
+        "method_summary": {
+          "incomplete_address_entered": "Введіть повну адресу доставки, щоб переглянути доступні способи доставки",
+          "incomplete_address_selected": "Виберіть повну адресу доставки, щоб переглянути доступні способи доставки"
+        },
+        "local_pickup": {
+          "search_address": "Пошук адреси",
+          "rollup_title": "Місце отримання"
+        },
+        "missing_shipping_address": "Відсутня адреса доставки"
+      },
+      "localized_fields": {
+        "additional_information": {
+          "title": "Додаткова інформація"
         }
       }
     },
