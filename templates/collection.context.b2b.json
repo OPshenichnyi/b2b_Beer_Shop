@@ -4,5 +4,12 @@
     "b2b": true
   },
   "sections": {
+    "product-grid": {
+      "settings": {
+        "show_secondary_image": false
+      },
+      "blocks": {
+      }
+    }
   }
 }
