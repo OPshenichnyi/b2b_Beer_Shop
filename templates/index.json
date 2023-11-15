@@ -1,5 +1,32 @@
 {
   "sections": {
+    "916eb672-e25b-4499-b5bb-338db5317cb7": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17047300047094__916eb672-e25b-4499-b5bb-338db5317cb7-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Bootle Beer",
+            "button_link": "",
+            "button_style_secondary": true,
+            "button_label_2": "Sydry",
+            "button_link_2": "",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "template--17047300047094__916eb672-e25b-4499-b5bb-338db5317cb7-button-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -140,6 +167,7 @@
     }
   },
   "order": [
+    "916eb672-e25b-4499-b5bb-338db5317cb7",
     "image_banner",
     "594e7a6d-9a72-451d-9098-3452f118b958",
     "d53f97a8-08ad-4e6d-bce7-9fa8eadecab0"
