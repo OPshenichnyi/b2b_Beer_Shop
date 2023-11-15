@@ -13,22 +13,10 @@
             "button_link_2": "",
             "button_style_secondary_2": true
           }
-        },
-        "8fdbc825-00cd-4d2b-a73f-ca6a556d55b3": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
         }
       },
       "block_order": [
-        "template--17047300047094__916eb672-e25b-4499-b5bb-338db5317cb7-button-1",
-        "8fdbc825-00cd-4d2b-a73f-ca6a556d55b3"
+        "template--17047300047094__916eb672-e25b-4499-b5bb-338db5317cb7-button-1"
       ],
       "custom_css": [
 
