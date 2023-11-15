@@ -59,7 +59,7 @@
 }
 
 .rich-text__buttons {
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 1rem;
