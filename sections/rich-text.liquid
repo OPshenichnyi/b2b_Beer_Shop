@@ -54,7 +54,7 @@
                 {{ block.settings.text }}
               </div>
             {%- when 'button' -%}
-              <div
+              <!-- <div
                 class="rich-text__buttons{% if block.settings.button_label != blank and block.settings.button_label_2 != blank %} rich-text__buttons--multiple{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
                 {{ block.shopify_attributes }}
                 {% if settings.animations_reveal_on_scroll %}
@@ -86,7 +86,7 @@
                     {{- block.settings.button_label_2 | escape -}}
                   </a>
                 {%- endif -%}
-              </div>
+              </div> -->
           {%- endcase -%}
         {%- endfor -%}
       </div>
