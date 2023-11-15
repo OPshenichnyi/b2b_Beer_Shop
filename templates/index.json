@@ -18,6 +18,9 @@
       "block_order": [
         "template--17047300047094__916eb672-e25b-4499-b5bb-338db5317cb7-button-1"
       ],
+      "custom_css": [
+        ".div{display: flex}"
+      ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "left",
