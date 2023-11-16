@@ -19,10 +19,10 @@
           "settings": {
             "button_label": "Wine",
             "button_link": "",
-            "button_style_secondary": false,
+            "button_style_secondary": true,
             "button_label_2": "Keg",
             "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_style_secondary_2": true
           }
         }
       },
@@ -34,7 +34,7 @@
         ".left {display: flex;}"
       ],
       "settings": {
-        "desktop_content_position": "left",
+        "desktop_content_position": "center",
         "content_alignment": "left",
         "color_scheme": "inverse",
         "full_width": true,
