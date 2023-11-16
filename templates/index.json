@@ -7,7 +7,7 @@
           "type": "button",
           "settings": {
             "button_label": "Beer",
-            "button_link": "",
+            "button_link": "shopify:\/\/collections\/all",
             "button_style_secondary": true,
             "button_label_2": "Sydry",
             "button_link_2": "",
