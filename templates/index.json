@@ -31,12 +31,12 @@
         "678b2bec-e43f-47ba-8f92-95f4cda5bab8"
       ],
       "custom_css": [
-        ".left {display: flex;}",
-        ".button{display:inline}"
+        ".centr {display: flex;}",
+        ".button {display: inline;}"
       ],
       "settings": {
         "desktop_content_position": "center",
-        "content_alignment": "left",
+        "content_alignment": "center",
         "color_scheme": "inverse",
         "full_width": true,
         "padding_top": 0,
