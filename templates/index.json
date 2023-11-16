@@ -31,7 +31,7 @@
         "678b2bec-e43f-47ba-8f92-95f4cda5bab8"
       ],
       "custom_css": [
-
+        "rich-text__blocks left{display: flex}"
       ],
       "settings": {
         "desktop_content_position": "center",
