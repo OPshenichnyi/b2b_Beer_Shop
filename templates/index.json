@@ -52,6 +52,13 @@
             "heading_size": "h1"
           }
         },
+        "71c5d2ee-d928-414a-a1c4-497f09472bfa": {
+          "type": "text",
+          "settings": {
+            "text": "Вітаємо тебе на B2B площадці з продажу алкогольних напоїв та обладнання для твого бізнесу. Замовляй в 2 кліки отримуй знижки, слідкуй за новинками.",
+            "text_style": "subtitle"
+          }
+        },
         "button": {
           "type": "buttons",
           "settings": {
@@ -66,6 +73,7 @@
       },
       "block_order": [
         "heading",
+        "71c5d2ee-d928-414a-a1c4-497f09472bfa",
         "button"
       ],
       "settings": {
