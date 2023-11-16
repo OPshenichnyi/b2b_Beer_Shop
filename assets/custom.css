@@ -6,7 +6,7 @@
 /* Header */
 .section-template--17025109033206__916eb672-e25b-4499-b5bb-338db5317cb7-padding
  .button{
-    /* background-color: hotpink; */
+    background-color: hotpink;
     border-radius: 8px;
    
 }
@@ -14,14 +14,4 @@
 .section-template--17025109033206__916eb672-e25b-4499-b5bb-338db5317cb7-padding
 .button:hover {
     text-decoration: underline 2px red;
-}
-
-.button:after, .shopify-challenge__button:after, .customer button:after, .shopify-payment-button__button--unbranded:after,
-.button:before, .shopify-challenge__button:before, .customer button:before, .shopify-payment-button__button--unbranded:before, .shopify-payment-button [role=button]:before, .cart__dynamic-checkout-buttons [role=button]:before {
-	display: none;
-}
-
-.button, .shopify-payment-button__button, .shopify-challenge__button, .customer button, .c-grid-text a, .description a, .c-vertical-tabs__content a, .c-vertical-tabs__tab, button._formSubmitButton_muap4_72 {
-	border: 1px solid;
-	transition: 0.3s all;
 }
