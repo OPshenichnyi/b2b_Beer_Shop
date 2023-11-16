@@ -31,7 +31,7 @@
         "678b2bec-e43f-47ba-8f92-95f4cda5bab8"
       ],
       "custom_css": [
-        ".center {display: flex;}"
+        ".center {display: flex; justify-content: center;}"
       ],
       "settings": {
         "desktop_content_position": "center",
