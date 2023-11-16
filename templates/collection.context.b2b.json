@@ -1,0 +1,28 @@
+{
+  "parent": "collection.json",
+  "context": {
+    "b2b": true
+  },
+  "sections": {
+    "product-grid": {
+      "settings": {
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_rating": false
+      },
+      "blocks": {
+      }
+    },
+    "banner": {
+      "settings": {
+        "show_collection_image": false
+      },
+      "blocks": {
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "product-grid"
+  ]
+}

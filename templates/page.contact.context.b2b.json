@@ -1,0 +1,58 @@
+{
+  "parent": "page.contact.json",
+  "context": {
+    "b2b": true
+  },
+  "sections": {
+    "c7b18612-96c5-4d91-9f14-90c47914168f": {
+      "type": "collection-list",
+      "disabled": false,
+      "settings": {
+        "title": "Collections",
+        "heading_size": "h2",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": false,
+        "header-09124e2777366657310c1c8dad10e3ef": null,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "header-9ff55656998dceea6fcadf7a9c158be7": null,
+        "padding_top": 36,
+        "padding_bottom": 36
+      },
+      "blocks": {
+        "template--17047640867062__c7b18612-96c5-4d91-9f14-90c47914168f-featured_collection-1": {
+          "type": "featured_collection",
+          "disabled": false,
+          "settings": {
+            "collection": "beer"
+          }
+        },
+        "template--17047640867062__c7b18612-96c5-4d91-9f14-90c47914168f-featured_collection-2": {
+          "type": "featured_collection",
+          "disabled": false,
+          "settings": {
+            "collection": ""
+          }
+        },
+        "template--17047640867062__c7b18612-96c5-4d91-9f14-90c47914168f-featured_collection-3": {
+          "type": "featured_collection",
+          "disabled": false,
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17047640867062__c7b18612-96c5-4d91-9f14-90c47914168f-featured_collection-1",
+        "template--17047640867062__c7b18612-96c5-4d91-9f14-90c47914168f-featured_collection-2",
+        "template--17047640867062__c7b18612-96c5-4d91-9f14-90c47914168f-featured_collection-3"
+      ]
+    }
+  },
+  "order": [
+    "main",
+    "c7b18612-96c5-4d91-9f14-90c47914168f"
+  ]
+}

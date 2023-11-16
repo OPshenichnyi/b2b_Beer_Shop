@@ -1,0 +1,12 @@
+{
+  "parent": "header-group.json",
+  "context": {
+    "b2b": true
+  },
+  "sections": {
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}
