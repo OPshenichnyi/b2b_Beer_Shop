@@ -12,7 +12,6 @@
 /* Needed for gradient continuity with or without animation, the transform scopes the gradient to its container which happens already when animation are turned on */
 .banner__box.gradient {
   transform: perspective(0);
-  background: linear-gradient(73deg,rgba(40,166,215,.848),rgba(67,109,201,.74) 65.66%,rgba(36,60,168,.24));
 }
 
 @media only screen and (max-width: 749px) {
