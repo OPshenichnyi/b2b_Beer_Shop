@@ -17,3 +17,16 @@
 .banner__content banner__content--middle-left page-width scroll-trigger animate--slide-in .collection-hero__image-container media gradient{
   background: white;
 }
+
+.custom-section{
+    background-color: red;
+}
+
+.hero-custom-baner{
+    min-width: 300px;
+    min-height: 300px;
+    background: linear-gradient(73deg, 
+    rgba(40, 166, 215, .848), 
+    rgba(67, 109, 201, .74) 65.66%, 
+    rgba(36, 60, 168, .24));
+}
