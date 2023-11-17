@@ -1,0 +1,32 @@
+<div class="{% if section.settings.include_margins %}page-width{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+  {%- for block in section.blocks -%}
+    {% render block %}
+  {%- endfor -%}
+</div>
+{{ 'custom.css' | asset_url | stylesheet_tag }}
+{% schema %}
+{
+  "name": "Hero Custom", // Name Herro
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "include_margins",
+      "default": true,
+      "label": "t:sections.apps.settings.include_margins.label"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "products",
+      "name": "Section Hero"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Hero Custom"
+    }
+  ]
+}
+{% endschema %}
