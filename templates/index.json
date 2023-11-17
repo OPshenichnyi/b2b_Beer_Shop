@@ -77,7 +77,7 @@
         "button"
       ],
       "custom_css": [
-        "#Banner-template--17047300047094__image_banner{background: linear-gradient(73deg,rgba(40,166,215,.848),rgba(67,109,201,.74) 65.66%,rgba(36,60,168,.24));}"
+        ".banner__media media scroll-trigger animate--fade-in {background: linear-gradient( 73deg, rgba(40, 166, 215, 0.848), rgba(67, 109, 201, 0.74) 65.66%, rgba(36, 60, 168, 0.24) );}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Logo_9.png",
