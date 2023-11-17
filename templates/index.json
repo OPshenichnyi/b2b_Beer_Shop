@@ -42,6 +42,22 @@
         "padding_bottom": 0
       }
     },
+    "9ffc7659-cb93-4067-87f1-bc35ecb73854": {
+      "type": "section-product",
+      "blocks": {
+        "52fc87dd-03b3-466b-9a1b-203ebd632198": {
+          "type": "products",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "52fc87dd-03b3-466b-9a1b-203ebd632198"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "2e935a14-e250-4c62-8666-aedd3918ca4e": {
       "type": "image-with-text",
       "blocks": {
@@ -243,6 +259,7 @@
   },
   "order": [
     "916eb672-e25b-4499-b5bb-338db5317cb7",
+    "9ffc7659-cb93-4067-87f1-bc35ecb73854",
     "2e935a14-e250-4c62-8666-aedd3918ca4e",
     "image_banner",
     "594e7a6d-9a72-451d-9098-3452f118b958",
