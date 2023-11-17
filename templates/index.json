@@ -74,7 +74,7 @@
         "template--17047300047094__2e935a14-e250-4c62-8666-aedd3918ca4e-button-1"
       ],
       "custom_css": [
-        "section-template--17047300047094__2e935a14-e250-4c62-8666-aedd3918ca4e-padding .gradient .color-background-1 {color: red;}"
+        "image-with-text__content image-with-text__content--top image-with-text__content--desktop-left image-with-text__content--mobile-left image-with-text__content--adapt content-container background-transparent {color: red;}"
       ],
       "settings": {
         "height": "adapt",
