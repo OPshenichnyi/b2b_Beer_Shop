@@ -48,8 +48,6 @@
         "52fc87dd-03b3-466b-9a1b-203ebd632198": {
           "type": "products",
           "settings": {
-            "Hero-footer_linklist_title": "",
-            "Hero-background": "linear-gradient(180deg, rgba(194, 50, 50, 1) 42%, rgba(0, 0, 0, 1) 100%)"
           }
         }
       },
