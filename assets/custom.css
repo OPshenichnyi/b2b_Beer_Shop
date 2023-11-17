@@ -13,3 +13,7 @@
 .section-template--17025109033206__916eb672-e25b-4499-b5bb-338db5317cb7-padding.button:hover {
     text-decoration: underline 2px red;
 }
+
+.banner__content banner__content--middle-left page-width scroll-trigger animate--slide-in .collection-hero__image-container media gradient{
+  background: white;
+}
