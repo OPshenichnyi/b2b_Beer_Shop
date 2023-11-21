@@ -1,7 +1,24 @@
 <div class="custom-section">
-  <div class="hero-custom-baner " {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
+  <div class="hero-custom-baner page-width " {{ block.shopify_attributes }}>
+    <div class="hero-custom-baner-image">
+      <img
+        class="hero-custom-baner-image_left"
+        src="https://www.telion.ch/thumbor/Nex-V9jdg3jSh_Vl0RUzPuyO1XQ=/filters:cachevalid(2022-12-02T15:45:21.304717):strip_icc():strip_exif()/cms/cms/illustrationen/service-b2b-shop.png"
+        width="200px"
+      >
+    </div>
+    <div class="hero_section_title">
+      <h1 class="hero_section_title_h1">НАДІЙНИЙ ПАРТНЕР ВАШОГО БІЗНЕСУ</h1>
+      <p class="hero_section_title_text">
+        Вітаємо тебе на B2B площадці з продажу алкогольних напоїв та обладнання для твого бізнесу. Замовляй в 2 кліки
+        отримуй знижки, слідкуй за новинками.
+      </p>
+      <button class="hero_section_title_button" type="button">Register</button>
+    </div>
+  </div>
 </div>
 {{ 'custom.css' | asset_url | stylesheet_tag }}
+
 {% schema %}
 {
   "name": "Hero Custom", // Name Herro
@@ -24,12 +41,6 @@
           "type": "text",
           "id": "Hero-footer_linklist_title",
           "label": "Hero Heading"
-        },
-        {
-          "type": "color_background",
-          "id": "Hero-background",
-          "label": "Hero-Background",
-          "default": "linear-gradient(#ffffff, #000000)"
         }
       ]
     }

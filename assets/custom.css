@@ -14,23 +14,53 @@
     text-decoration: underline 2px red;
 }
 
-.banner__content banner__content--middle-left page-width scroll-trigger animate--slide-in .collection-hero__image-container media gradient{
-  background: white;
-}
 
-/* .custom-section{
-    
-} */
-
+/* Hero section */
 .hero-custom-baner{
-    min-width: 300px;
-    min-height: 600px;
-    background: linear-gradient(73deg, 
-    rgba(40, 166, 215, .848), 
-    rgba(67, 109, 201, .74) 65.66%, 
-    rgba(36, 60, 168, .24));
-    overflow: hidden;
-    /* content: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4003.2 383.7' xml:space='preserve'%3E%3Cpath fill='%23FFF' d='M2090.6 32.9C1526.8 197.6 519.1 503 0 137.4v246.3h4000V222.2c-592.5 16.4-1436.1-327.6-1909.4-189.3z'/%3E%3C/svg%3E"); */
-
-
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
 }
+.hero-custom-baner-image{
+    max-width: 50%;
+    
+}
+.hero-custom-baner-image_left{
+    width: 100%;
+}
+
+.hero_section_title{
+text-align: center;
+max-width: 50%;
+}
+
+.hero_section_title_h1 {
+color: white;
+font-size: 35px;
+font-weight: 700;
+margin-bottom: 35px;
+}
+
+.hero_section_title_text{
+    color: white;
+    margin-bottom: 35px;
+}
+
+.hero_section_title_button{
+  padding: 15px 70px;
+  border: none;
+  border-radius: 35px;
+  font-size: 22px;
+  font-weight: 700;
+  background-color: #FFB65F;
+  cursor: pointer;
+  color: white;
+}
+.custom-section{
+    background:linear-gradient(73deg, rgba(40, 166, 215, .848), rgba(67, 109, 201, .74) 65.66%, rgba(36, 60, 168, .24)) ;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    height: 100%;
+}
+
+/* Hero section end */
