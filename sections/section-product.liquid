@@ -1,23 +1,25 @@
-<div class="custom-section">
-  <div class="hero-custom-baner page-width " {{ block.shopify_attributes }}>
-    <div class="hero-custom-baner-image">
-      <img
-        class="hero-custom-baner-image_left"
-        src="https://www.telion.ch/thumbor/Nex-V9jdg3jSh_Vl0RUzPuyO1XQ=/filters:cachevalid(2022-12-02T15:45:21.304717):strip_icc():strip_exif()/cms/cms/illustrationen/service-b2b-shop.png"
-        width="200px"
-      >
-    </div>
-    {% comment %} НАДІЙНИЙ ПАРТНЕР ВАШОГО БІЗНЕСУ {% endcomment %}
-    <div class="hero_section_title">
-      <h1 class="hero_section_title_h1">{{ blocks.settings['Hero-footer_linklist_title'] }}</h1>
-      <p class="hero_section_title_text">
-        Вітаємо тебе на B2B площадці з продажу алкогольних напоїв та обладнання для твого бізнесу. Замовляй в 2 кліки
-        отримуй знижки, слідкуй за новинками.
-      </p>
-      <button class="hero_section_title_button" type="button">Register</button>
-    </div>
-  </div>
-</div>
+{% for block in section.blocks %}
+  {% case block.type %}
+    {% when 'products' %}
+      <div class="custom-section" {{ block.shopify_attributes }}>
+        <div class="hero-custom-baner page-width ">
+          <div class="hero-custom-baner-image">
+            <img
+              class="hero-custom-baner-image_left"
+              src="https://www.telion.ch/thumbor/Nex-V9jdg3jSh_Vl0RUzPuyO1XQ=/filters:cachevalid(2022-12-02T15:45:21.304717):strip_icc():strip_exif()/cms/cms/illustrationen/service-b2b-shop.png"
+              width="200px"
+            >
+          </div>
+          <div class="hero_section_title">
+            <h1 class="hero_section_title_h1">{{ block.settings.hero_title_custom }}</h1>
+            <p class="hero_section_title_text">{{ block.settings.hero_title_text }}</p>
+            <button class="hero_section_title_button" type="button">Register</button>
+          </div>
+        </div>
+      </div>
+  {% endcase %}
+{% endfor %}
+
 {{ 'custom.css' | asset_url | stylesheet_tag }}
 
 {% schema %}
@@ -40,8 +42,15 @@
       "settings": [
         {
           "type": "text",
-          "id": "Hero-footer_linklist_title",
+          "id": "hero_title_custom",
+          "default": "НАДІЙНИЙ ПАРТНЕР ВАШОГО БІЗНЕСУ",
           "label": "Hero Heading"
+        },
+        {
+          "type": "text",
+          "id": "hero_title_text",
+          "default": "hgfhghghg",
+          "label": "Hero Text"
         }
       ]
     }
