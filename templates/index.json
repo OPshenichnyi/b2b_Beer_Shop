@@ -48,8 +48,7 @@
         "52fc87dd-03b3-466b-9a1b-203ebd632198": {
           "type": "products",
           "settings": {
-            "Hero-footer_linklist_title": "cdcdcd",
-            "Hero-background": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(0, 0, 0, 1) 100%)"
+            "Hero-footer_linklist_title": ""
           }
         }
       },
@@ -58,6 +57,48 @@
       ],
       "settings": {
         "include_margins": true
+      }
+    },
+    "594e7a6d-9a72-451d-9098-3452f118b958": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17047300047094__594e7a6d-9a72-451d-9098-3452f118b958-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Lubart Keg Market<\/strong>",
+            "heading_size": "h1"
+          }
+        },
+        "template--17047300047094__594e7a6d-9a72-451d-9098-3452f118b958-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ми - ваш надійний партнер у сфері реалізації пива та обладнання для розливу. Наша компанія спеціалізується на наданні вам доступу до найкращого асортименту пива та технічного обладнання для його розливу. Наш досвід та спеціалізація допоможуть вам досягти успіху у цьому бізнесі. Ми горді тим, що допомагаємо нашим клієнтам на кожному етапі їхнього розвитку. Зв'яжіться з нами, і ми готові надати вам фахову підтримку та найкращі рішення для вашого бізнесу.<\/p>"
+          }
+        },
+        "template--17047300047094__594e7a6d-9a72-451d-9098-3452f118b958-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17047300047094__594e7a6d-9a72-451d-9098-3452f118b958-heading-1",
+        "template--17047300047094__594e7a6d-9a72-451d-9098-3452f118b958-text-1",
+        "template--17047300047094__594e7a6d-9a72-451d-9098-3452f118b958-button-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 28,
+        "padding_bottom": 28
       }
     },
     "2e935a14-e250-4c62-8666-aedd3918ca4e": {
@@ -107,99 +148,6 @@
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "image_banner": {
-      "type": "image-banner",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "НАДІЙНИЙ ПАРТНЕР ВАШОГО БІЗНЕСУ",
-            "heading_size": "h1"
-          }
-        },
-        "71c5d2ee-d928-414a-a1c4-497f09472bfa": {
-          "type": "text",
-          "settings": {
-            "text": "Вітаємо тебе на B2B площадці з продажу алкогольних напоїв та обладнання для твого бізнесу. Замовляй в 2 кліки отримуй знижки, слідкуй за новинками.",
-            "text_style": "subtitle"
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "B2B ПРАЙС",
-            "button_link_1": "shopify:\/\/pages\/b2b-price",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "71c5d2ee-d928-414a-a1c4-497f09472bfa",
-        "button"
-      ],
-      "custom_css": [
-
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Logo_9.png",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "middle-left",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "inverse",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": false
-      }
-    },
-    "594e7a6d-9a72-451d-9098-3452f118b958": {
-      "type": "rich-text",
-      "blocks": {
-        "template--17047300047094__594e7a6d-9a72-451d-9098-3452f118b958-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>Lubart Keg Market<\/strong>",
-            "heading_size": "h1"
-          }
-        },
-        "template--17047300047094__594e7a6d-9a72-451d-9098-3452f118b958-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Ми - ваш надійний партнер у сфері реалізації пива та обладнання для розливу. Наша компанія спеціалізується на наданні вам доступу до найкращого асортименту пива та технічного обладнання для його розливу. Наш досвід та спеціалізація допоможуть вам досягти успіху у цьому бізнесі. Ми горді тим, що допомагаємо нашим клієнтам на кожному етапі їхнього розвитку. Зв'яжіться з нами, і ми готові надати вам фахову підтримку та найкращі рішення для вашого бізнесу.<\/p>"
-          }
-        },
-        "template--17047300047094__594e7a6d-9a72-451d-9098-3452f118b958-button-1": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--17047300047094__594e7a6d-9a72-451d-9098-3452f118b958-heading-1",
-        "template--17047300047094__594e7a6d-9a72-451d-9098-3452f118b958-text-1",
-        "template--17047300047094__594e7a6d-9a72-451d-9098-3452f118b958-button-1"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 28,
-        "padding_bottom": 28
       }
     },
     "d53f97a8-08ad-4e6d-bce7-9fa8eadecab0": {
@@ -262,9 +210,8 @@
   "order": [
     "916eb672-e25b-4499-b5bb-338db5317cb7",
     "9ffc7659-cb93-4067-87f1-bc35ecb73854",
-    "2e935a14-e250-4c62-8666-aedd3918ca4e",
-    "image_banner",
     "594e7a6d-9a72-451d-9098-3452f118b958",
+    "2e935a14-e250-4c62-8666-aedd3918ca4e",
     "d53f97a8-08ad-4e6d-bce7-9fa8eadecab0"
   ]
 }
