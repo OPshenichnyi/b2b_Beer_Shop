@@ -48,7 +48,8 @@
         "hero_title_custom": "НАДІЙНИЙ ПАРТНЕР ВАШОГО БІЗНЕСУ",
         "hero_title_text": "Ми - ваш надійний партнер у сфері реалізації пива та обладнання для розливу",
         "btn_title": "Зареєструватись",
-        "background_hero": "linear-gradient(160deg, rgba(75, 82, 201, 0.89) 11%, rgba(120, 196, 245, 0.78) 75%)"
+        "background_hero": "linear-gradient(160deg, rgba(75, 82, 201, 0.89) 11%, rgba(120, 196, 245, 0.78) 75%)",
+        "image_hero_custom": "shopify:\/\/shop_images\/green-plants-grow-in-lines-on-rolling-hills.jpg"
       }
     },
     "594e7a6d-9a72-451d-9098-3452f118b958": {
