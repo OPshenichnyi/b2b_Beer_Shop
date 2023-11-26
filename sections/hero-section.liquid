@@ -1,4 +1,4 @@
-<div class="custom-section" {{ section.shopify_attributes }}>
+<div class="custom-section" {{ section.shopify_attributes }} style="color:{{ section.settings.background_hero }}">
   <div class="hero-custom-baner page-width ">
     <div class="hero-custom-baner-image">
       <img
@@ -27,13 +27,19 @@
       "type": "text",
       "id": "hero_title_custom",
       "default": "НАДІЙНИЙ ПАРТНЕР ВАШОГО БІЗНЕСУ",
-      "label": "Hero Heading"
+      "label": "Hero Title"
     },
     {
       "type": "text",
       "id": "hero_title_text",
       "default": "hgfhghghg",
       "label": "Hero Text"
+    },
+    {
+      "type": "color_background",
+      "id": "background_hero",
+      "label": "Background Section",
+      "default": "linear-gradient(#ffffff, #000000)"
     }
   ],
 
