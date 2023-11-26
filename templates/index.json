@@ -47,7 +47,7 @@
       "settings": {
         "hero_title_custom": "НАДІЙНИЙ ПАРТНЕР ВАШОГО БІЗНЕСУ",
         "hero_title_text": "Ми - ваш надійний партнер у сфері реалізації пива та обладнання для розливу",
-        "background_hero": "linear-gradient(73deg, rgba(52, 133, 236, 1) 13%, rgba(170, 248, 219, 1) 86%)"
+        "background_hero": "radial-gradient(rgba(52, 133, 236, 1) 13%, rgba(170, 248, 219, 1) 86%)"
       }
     },
     "594e7a6d-9a72-451d-9098-3452f118b958": {
