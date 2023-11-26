@@ -42,21 +42,6 @@
         "padding_bottom": 0
       }
     },
-    "9ffc7659-cb93-4067-87f1-bc35ecb73854": {
-      "type": "section-product",
-      "blocks": {
-        "52fc87dd-03b3-466b-9a1b-203ebd632198": {
-          "type": "products",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "52fc87dd-03b3-466b-9a1b-203ebd632198"
-      ],
-      "settings": {
-      }
-    },
     "594e7a6d-9a72-451d-9098-3452f118b958": {
       "type": "rich-text",
       "blocks": {
@@ -203,13 +188,21 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "3d88933b-ea19-41bf-9905-83f3f40cbcd1": {
+      "type": "hero-section",
+      "settings": {
+        "hero_title_custom": "НАДІЙНИЙ ПАРТНЕР ВАШОГО БІЗНЕСУ",
+        "hero_title_text": "hgfhghghg",
+        "background_hero": "linear-gradient(180deg, rgba(156, 104, 104, 1) 6%, rgba(0, 0, 0, 1) 100%)"
+      }
     }
   },
   "order": [
     "916eb672-e25b-4499-b5bb-338db5317cb7",
-    "9ffc7659-cb93-4067-87f1-bc35ecb73854",
     "594e7a6d-9a72-451d-9098-3452f118b958",
     "d53f97a8-08ad-4e6d-bce7-9fa8eadecab0",
-    "2e935a14-e250-4c62-8666-aedd3918ca4e"
+    "2e935a14-e250-4c62-8666-aedd3918ca4e",
+    "3d88933b-ea19-41bf-9905-83f3f40cbcd1"
   ]
 }
