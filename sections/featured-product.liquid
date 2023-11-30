@@ -140,7 +140,7 @@
         </media-gallery>
       </div>
       <div class="product__info-wrapper grid__item{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
-        {{ "This" }}
+        
         <product-info
           id="ProductInfo-{{ section.id }}"
           class="product__info-container"
@@ -154,6 +154,7 @@
               {%- when '@app' -%}
                 {% render block %}
               {%- when 'text' -%}
+              {{ "This" }}
                 <p
                   class="product__text inline-richtext{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}"
                   {{ block.shopify_attributes }}
