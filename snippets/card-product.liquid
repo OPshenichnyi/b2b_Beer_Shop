@@ -119,7 +119,7 @@
                 aria-labelledby="StandardCardNoMediaLink-{{ section_id }}-{{ card_product.id }} NoMediaStandardBadge-{{ section_id }}-{{ card_product.id }}"
               >
                 {{ card_product.title | escape }}
-   <p>{{ This }}</p>
+  
               </a>
             </h3>
           </div>
@@ -206,6 +206,7 @@
             {% render 'price', product: card_product, price_class: '', show_compare_at_price: true %}
             {%- if card_product.quantity_price_breaks_configured? -%}
               <div class="card__information-volume-pricing-note">
+               <p>{{ This }}</p>
                 <span class="caption">{{ 'products.product.volume_pricing.note' | t }}</span>
               </div>
             {%- endif -%}
