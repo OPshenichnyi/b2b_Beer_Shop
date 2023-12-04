@@ -7,7 +7,13 @@
     <div class="hero_section_title">
       <h1 class="hero_section_title_h1">{{ section.settings.hero_title_custom }}</h1>
       <p class="hero_section_title_text">{{ section.settings.hero_title_text }}</p>
-      <button class="hero_section_title_button" type="button">{{ section.settings.btn_title }}</button>
+      <button
+        class="hero_section_title_button"
+        type="button"
+        style="background:{{ section.settings.btn_color }}"
+      >
+        {{ section.settings.btn_title }}
+      </button>
     </div>
     <div class="hero-custom-baner-image">
       <img
@@ -49,6 +55,12 @@
       "id": "body_color",
       "label": "Hero body color",
       "default": "#f0bd00"
+    },
+    {
+      "type": "color",
+      "id": "btn_color",
+      "label": "Color button",
+      "default": "#fff"
     },
     {
       "type": "image_picker",
