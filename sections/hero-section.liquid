@@ -7,8 +7,7 @@
     <div class="hero-custom-baner-image">
       <img
         class="hero-custom-baner-image_left"
-        src="{{section.settings.image_hero_custom}}"
-        width="200px"
+        src="{{section.settings.image_hero_custom | image_url: width: 750}}"
       >
     </div>
     <div class="hero_section_title">
@@ -50,12 +49,6 @@
       "id": "body_color",
       "label": "Hero body color",
       "default": "#f0bd00"
-    },
-    {
-      "type": "color_background",
-      "id": "background_hero",
-      "label": "Background Section",
-      "default": "linear-gradient(73deg, 73deg, rgba(40, 166, 215, .848), rgba(67, 109, 201, .74) 65.66%, rgba(36, 60, 168, .24))"
     },
     {
       "type": "image_picker",
