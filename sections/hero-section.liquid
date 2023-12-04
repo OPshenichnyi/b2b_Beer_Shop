@@ -1,7 +1,7 @@
 <div
   class="custom-section"
   {{ section.shopify_attributes }}
-  style="background:{{ section.settings.background_hero }}"
+  style="background:{{ section.settings.body_color }}"
 >
   <div class="hero-custom-baner page-width ">
     <div class="hero-custom-baner-image">
@@ -44,6 +44,12 @@
       "id": "btn_title",
       "default": "Register",
       "label": "Button name"
+    },
+    {
+      "type": "color",
+      "id": "body_color",
+      "label": "Hero body color",
+      "default": "#f0bd00"
     },
     {
       "type": "color_background",
