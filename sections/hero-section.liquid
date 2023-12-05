@@ -7,12 +7,15 @@
     <div class="hero_section_title">
       <h1 class="hero_section_title_h1">{{ section.settings.hero_title_custom }}</h1>
       <p class="hero_section_title_text">{{ section.settings.hero_title_text }}</p>
+
       <button
         class="hero_section_title_button"
         type="button"
         style="background:{{ section.settings.btn_color }}"
       >
-        {{ section.settings.btn_title }}
+        <span class="span-btn">
+          {{ section.settings.btn_title }}
+        </span>
       </button>
     </div>
     <div class="hero-custom-baner-image">
