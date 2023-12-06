@@ -11,6 +11,46 @@
         "image_hero_custom": "shopify:\/\/shop_images\/Keg_2.png"
       }
     },
+    "c4a6dc8d-06db-4b9d-a565-ea7fff312091": {
+      "type": "collection-list",
+      "blocks": {
+        "template--17047300047094__c4a6dc8d-06db-4b9d-a565-ea7fff312091-featured_collection-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "beer"
+          }
+        },
+        "template--17047300047094__c4a6dc8d-06db-4b9d-a565-ea7fff312091-featured_collection-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "template--17047300047094__c4a6dc8d-06db-4b9d-a565-ea7fff312091-featured_collection-3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17047300047094__c4a6dc8d-06db-4b9d-a565-ea7fff312091-featured_collection-1",
+        "template--17047300047094__c4a6dc8d-06db-4b9d-a565-ea7fff312091-featured_collection-2",
+        "template--17047300047094__c4a6dc8d-06db-4b9d-a565-ea7fff312091-featured_collection-3"
+      ],
+      "settings": {
+        "title": "Collections",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "594e7a6d-9a72-451d-9098-3452f118b958": {
       "type": "rich-text",
       "blocks": {
@@ -52,117 +92,11 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
-    },
-    "d53f97a8-08ad-4e6d-bce7-9fa8eadecab0": {
-      "type": "multicolumn",
-      "blocks": {
-        "template--17047300047094__d53f97a8-08ad-4e6d-bce7-9fa8eadecab0-column-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/umanpyvo.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--17047300047094__d53f97a8-08ad-4e6d-bce7-9fa8eadecab0-column-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Lubart.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--17047300047094__d53f97a8-08ad-4e6d-bce7-9fa8eadecab0-column-3": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/d5cdd9442586aa298b4d095ad637e53a.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--17047300047094__d53f97a8-08ad-4e6d-bce7-9fa8eadecab0-column-1",
-        "template--17047300047094__d53f97a8-08ad-4e6d-bce7-9fa8eadecab0-column-2",
-        "template--17047300047094__d53f97a8-08ad-4e6d-bce7-9fa8eadecab0-column-3"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h2",
-        "image_width": "half",
-        "image_ratio": "circle",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "2e935a14-e250-4c62-8666-aedd3918ca4e": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--17047300047094__2e935a14-e250-4c62-8666-aedd3918ca4e-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
-          }
-        },
-        "template--17047300047094__2e935a14-e250-4c62-8666-aedd3918ca4e-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "template--17047300047094__2e935a14-e250-4c62-8666-aedd3918ca4e-button-1": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "template--17047300047094__2e935a14-e250-4c62-8666-aedd3918ca4e-heading-1",
-        "template--17047300047094__2e935a14-e250-4c62-8666-aedd3918ca4e-text-1",
-        "template--17047300047094__2e935a14-e250-4c62-8666-aedd3918ca4e-button-1"
-      ],
-      "custom_css": [
-        ".image-with-text__content .image-with-text__content--top .image-with-text__content--desktop-left .image-with-text__content--mobile-left .image-with-text__content--adapt .content-container .background-transparent {color: red;}"
-      ],
-      "settings": {
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "background-1",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "3d88933b-ea19-41bf-9905-83f3f40cbcd1",
-    "594e7a6d-9a72-451d-9098-3452f118b958",
-    "d53f97a8-08ad-4e6d-bce7-9fa8eadecab0",
-    "2e935a14-e250-4c62-8666-aedd3918ca4e"
+    "c4a6dc8d-06db-4b9d-a565-ea7fff312091",
+    "594e7a6d-9a72-451d-9098-3452f118b958"
   ]
 }
