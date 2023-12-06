@@ -46,8 +46,10 @@
 }
 
 .hero_section_title_text{
+    font-family: sans-serif;
     color: white;
     margin-bottom: 35px;
+    font-size: 20px;
     
 }
 .span-btn{
