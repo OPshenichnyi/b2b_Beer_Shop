@@ -4,7 +4,10 @@
   style="background:{{ section.settings.body_color }}"
 >
   <div class="hero-custom-baner page-width ">
-    <div class="hero_section_title">
+    <div
+      class="hero_section_title"
+      style="background-image: url({{ section.settings.image_backgroun_custom | image_url: width: 400 }})"
+    >
       <h1 class="hero_section_title_h1">{{ section.settings.hero_title_custom }}</h1>
       <p class="hero_section_title_text">{{ section.settings.hero_title_text }}</p>
 
@@ -72,6 +75,11 @@
       "type": "image_picker",
       "id": "image_hero_custom",
       "label": "Image Hero"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_backgroun_custom",
+      "label": "Image Background Hero"
     }
   ],
 
