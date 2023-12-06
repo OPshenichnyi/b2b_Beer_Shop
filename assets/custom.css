@@ -21,10 +21,10 @@
     display: flex;
     justify-content: space-around;
     align-items: center;    
+   
 }
 .hero-custom-baner-image{
     max-width: 50%;
-    
 }
 .hero-custom-baner-image_left{
     width: 100%;
