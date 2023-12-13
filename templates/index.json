@@ -78,7 +78,7 @@
         "template--17047300047094__1fabc14b-ef67-4766-8e5d-cd9bf14d6e6c-button-1": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
+            "button_label": "Зареєструватись",
             "button_link": "",
             "button_style_secondary": false
           }
